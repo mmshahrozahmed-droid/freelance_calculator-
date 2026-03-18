@@ -1,10 +1,8 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-# Load dataset
 data = pd.read_csv("data.csv")
 
-# Convert project_type to numbers
 data['project_type'] = data['project_type'].map({
     'website': 1,
     'ai': 2,
