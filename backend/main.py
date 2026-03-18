@@ -18,7 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
--
+
 
 BASE_PRICES = {
     "website": 300,
