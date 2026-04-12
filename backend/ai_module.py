@@ -1,5 +1,8 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
+import joblib
+
+model = joblib.load("model.pkl")
 
 data = pd.read_csv("data.csv")
 
@@ -14,6 +17,8 @@ y = data['price']
 
 model = LinearRegression()
 model.fit(X, y)
+
+
 
 def predict_price(project_type, features_count, complexity):
     
