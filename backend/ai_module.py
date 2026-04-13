@@ -8,9 +8,15 @@ Purpose   : Predict recommended freelance project price using historical data
 
 import pandas as pd
 from sklearn.linear_model import LinearRegression
+<<<<<<< HEAD
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, r2_score
 import os
+=======
+import joblib
+
+model = joblib.load("model.pkl")
+>>>>>>> fd0354db13be7c275aba8789657d37323a90a0ae
 
 # ─── Extended Training Dataset ────────────────────────────────────────────────
 # The more data rows, the better the model accuracy.
@@ -80,10 +86,22 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 model = LinearRegression()
 model.fit(X_train, y_train)
 
+<<<<<<< HEAD
 # Evaluation metrics
 y_pred      = model.predict(X_test)
 MAE         = round(mean_absolute_error(y_test, y_pred), 2)
 R2          = round(r2_score(y_test, y_pred), 4)
+=======
+
+
+def predict_price(project_type, features_count, complexity):
+    
+    mapping = {
+        'website': 1,
+        'ai': 2,
+        'automation': 3
+    }
+>>>>>>> fd0354db13be7c275aba8789657d37323a90a0ae
 
 # ─── Public Functions ─────────────────────────────────────────────────────────
 
