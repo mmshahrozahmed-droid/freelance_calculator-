@@ -480,5 +480,49 @@
       "database",
       "api_integration"
     ]
+  },
+  {
+    "timestamp": "2026-04-13T19:45:55.049686",
+    "client": "",
+    "project_name": "",
+    "project_type": "website",
+    "complexity": "medium",
+    "features": [],
+    "estimated_price": 360.0,
+    "recommended_price": 417.6,
+    "ai_price": 712.51,
+    "timeline_days": 9,
+    "currency": "USD",
+    "breakdown": {
+      "base_price": 300.0,
+      "features_cost": 0.0,
+      "complexity_bonus": 60.0,
+      "experience_bonus": 57.6
+    },
+    "features_selected": []
+  },
+  {
+    "timestamp": "2026-04-13T19:45:59.105249",
+    "client": "",
+    "project_name": "",
+    "project_type": "website",
+    "complexity": "medium",
+    "features": [
+      "authentication"
+    ],
+    "estimated_price": 468.0,
+    "recommended_price": 542.88,
+    "ai_price": 774.06,
+    "timeline_days": 11,
+    "currency": "USD",
+    "breakdown": {
+      "base_price": 300.0,
+      "features_cost": 90.0,
+      "complexity_bonus": 78.0,
+      "experience_bonus": 74.88
+    },
+    "features_selected": [
+      "authentication"
+    ]
   }
 ]

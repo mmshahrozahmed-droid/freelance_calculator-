@@ -1,22 +1,8 @@
-"""
-ai_module.py — Enhanced Machine Learning module for Freelance Price Calculator v2.0
-
-Algorithm : Linear Regression (Scikit-learn)
-Author    : Shahroz Ahmed (Group Project)
-Purpose   : Predict recommended freelance project price using historical data
-"""
-
 import pandas as pd
 from sklearn.linear_model import LinearRegression
-<<<<<<< HEAD
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, r2_score
 import os
-=======
-import joblib
-
-model = joblib.load("model.pkl")
->>>>>>> fd0354db13be7c275aba8789657d37323a90a0ae
 
 # ─── Extended Training Dataset ────────────────────────────────────────────────
 # The more data rows, the better the model accuracy.
@@ -60,18 +46,21 @@ CSV_PATH = os.path.join(os.path.dirname(__file__), "data.csv")
 def load_dataset():
     """Load dataset from CSV if available, otherwise use built-in extended data."""
     if os.path.exists(CSV_PATH):
-        df = pd.read_csv(CSV_PATH)
-        # Always encode project_type string → int (safe for all Python/pandas versions)
-        type_mapping = {"website": 1, "ai": 2, "automation": 3, "mobile_app": 4, "ecommerce": 5}
-        df["project_type"] = df["project_type"].map(
-            lambda x: type_mapping.get(str(x).strip(), x) if isinstance(x, str) else x
-        )
-        # Ensure all columns are numeric floats
-        df["project_type"]    = pd.to_numeric(df["project_type"],    errors="coerce").fillna(1).astype(float)
-        df["features_count"]  = pd.to_numeric(df["features_count"],  errors="coerce").fillna(1).astype(float)
-        df["complexity"]      = pd.to_numeric(df["complexity"],       errors="coerce").fillna(1).astype(float)
-        df["price"]           = pd.to_numeric(df["price"],            errors="coerce").fillna(500).astype(float)
-        return df
+        try:
+            df = pd.read_csv(CSV_PATH)
+            # Always encode project_type string → int (safe for all Python/pandas versions)
+            type_mapping = {"website": 1, "ai": 2, "automation": 3, "mobile_app": 4, "ecommerce": 5}
+            df["project_type"] = df["project_type"].map(
+                lambda x: type_mapping.get(str(x).strip(), x) if isinstance(x, str) else x
+            )
+            # Ensure all columns are numeric floats
+            df["project_type"]    = pd.to_numeric(df["project_type"],    errors="coerce").fillna(1).astype(float)
+            df["features_count"]  = pd.to_numeric(df["features_count"],  errors="coerce").fillna(1).astype(float)
+            df["complexity"]      = pd.to_numeric(df["complexity"],       errors="coerce").fillna(1).astype(float)
+            df["price"]           = pd.to_numeric(df["price"],            errors="coerce").fillna(500).astype(float)
+            return df
+        except Exception:
+            return pd.DataFrame(EXTENDED_DATA)
     return pd.DataFrame(EXTENDED_DATA)
 
 # ─── Train Model ──────────────────────────────────────────────────────────────
@@ -86,22 +75,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-<<<<<<< HEAD
 # Evaluation metrics
 y_pred      = model.predict(X_test)
 MAE         = round(mean_absolute_error(y_test, y_pred), 2)
 R2          = round(r2_score(y_test, y_pred), 4)
-=======
-
-
-def predict_price(project_type, features_count, complexity):
-    
-    mapping = {
-        'website': 1,
-        'ai': 2,
-        'automation': 3
-    }
->>>>>>> fd0354db13be7c275aba8789657d37323a90a0ae
 
 # ─── Public Functions ─────────────────────────────────────────────────────────
 
@@ -140,4 +117,4 @@ def get_model_info() -> dict:
         "model_coefficients": model.coef_.tolist(),
         "model_intercept":   round(model.intercept_, 2),
         "accuracy_note":     "Higher R² (closer to 1.0) = better accuracy. MAE = avg dollar error.",
-    }
+    }
