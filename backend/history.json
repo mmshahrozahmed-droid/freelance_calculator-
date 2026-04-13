@@ -1,0 +1,484 @@
+[
+  {
+    "timestamp": "2026-04-13T15:39:03.821760",
+    "client": "",
+    "project_name": "",
+    "project_type": "ecommerce",
+    "complexity": "high",
+    "features": [
+      "admin_panel",
+      "payment",
+      "analytics"
+    ],
+    "estimated_price": 1222.5,
+    "recommended_price": 1907.1,
+    "ai_price": 1585.53,
+    "timeline_days": 21,
+    "currency": "USD",
+    "breakdown": {
+      "base_price": 450.0,
+      "features_cost": 365.0,
+      "complexity_bonus": 407.5,
+      "experience_bonus": 684.6
+    },
+    "features_selected": [
+      "admin_panel",
+      "payment",
+      "analytics"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:41:39.693155",
+    "client": "ali",
+    "project_name": "ecom store",
+    "project_type": "website",
+    "complexity": "high",
+    "features": [
+      "seo",
+      "admin_panel",
+      "payment",
+      "authentication"
+    ],
+    "estimated_price": 1021.2,
+    "recommended_price": 1633.92,
+    "ai_price": 1207.64,
+    "timeline_days": 22,
+    "currency": "EUR",
+    "breakdown": {
+      "base_price": 276.0,
+      "features_cost": 404.8,
+      "complexity_bonus": 340.4,
+      "experience_bonus": 612.72
+    },
+    "features_selected": [
+      "seo",
+      "admin_panel",
+      "payment",
+      "authentication"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:45:38.583766",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "high",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ],
+    "estimated_price": 389895.0,
+    "recommended_price": 389895.0,
+    "ai_price": 428511.98,
+    "timeline_days": 23,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 111200.0,
+      "features_cost": 148730.0,
+      "complexity_bonus": 129965.0,
+      "experience_bonus": 0.0
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:45:38.839895",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "high",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ],
+    "estimated_price": 389895.0,
+    "recommended_price": 389895.0,
+    "ai_price": 428511.98,
+    "timeline_days": 23,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 111200.0,
+      "features_cost": 148730.0,
+      "complexity_bonus": 129965.0,
+      "experience_bonus": 0.0
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:45:45.556244",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "low",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ],
+    "estimated_price": 259930.0,
+    "recommended_price": 259930.0,
+    "ai_price": 231724.12,
+    "timeline_days": 14,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 111200.0,
+      "features_cost": 148730.0,
+      "complexity_bonus": 0.0,
+      "experience_bonus": 0.0
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:45:46.502272",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "low",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ],
+    "estimated_price": 259930.0,
+    "recommended_price": 259930.0,
+    "ai_price": 231724.12,
+    "timeline_days": 14,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 111200.0,
+      "features_cost": 148730.0,
+      "complexity_bonus": 0.0,
+      "experience_bonus": 0.0
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:45:49.056524",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "low",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ],
+    "estimated_price": 259930.0,
+    "recommended_price": 259930.0,
+    "ai_price": 231724.12,
+    "timeline_days": 14,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 111200.0,
+      "features_cost": 148730.0,
+      "complexity_bonus": 0.0,
+      "experience_bonus": 0.0
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:46:01.789065",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "high",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ],
+    "estimated_price": 389895.0,
+    "recommended_price": 389895.0,
+    "ai_price": 428511.98,
+    "timeline_days": 23,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 111200.0,
+      "features_cost": 148730.0,
+      "complexity_bonus": 129965.0,
+      "experience_bonus": 0.0
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:46:46.512248",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "high",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ],
+    "estimated_price": 389895.0,
+    "recommended_price": 577044.6,
+    "ai_price": 428511.98,
+    "timeline_days": 23,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 111200.0,
+      "features_cost": 148730.0,
+      "complexity_bonus": 129965.0,
+      "experience_bonus": 187149.6
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:47:01.088237",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "high",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ],
+    "estimated_price": 1402.5,
+    "recommended_price": 2075.7,
+    "ai_price": 1541.41,
+    "timeline_days": 23,
+    "currency": "USD",
+    "breakdown": {
+      "base_price": 400.0,
+      "features_cost": 535.0,
+      "complexity_bonus": 467.5,
+      "experience_bonus": 673.2
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:47:39.591351",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "high",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ],
+    "estimated_price": 389895.0,
+    "recommended_price": 577044.6,
+    "ai_price": 428511.98,
+    "timeline_days": 23,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 111200.0,
+      "features_cost": 148730.0,
+      "complexity_bonus": 129965.0,
+      "experience_bonus": 187149.6
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:47:39.822677",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "high",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ],
+    "estimated_price": 389895.0,
+    "recommended_price": 577044.6,
+    "ai_price": 428511.98,
+    "timeline_days": 23,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 111200.0,
+      "features_cost": 148730.0,
+      "complexity_bonus": 129965.0,
+      "experience_bonus": 187149.6
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:47:40.719703",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "high",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ],
+    "estimated_price": 389895.0,
+    "recommended_price": 577044.6,
+    "ai_price": 428511.98,
+    "timeline_days": 23,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 111200.0,
+      "features_cost": 148730.0,
+      "complexity_bonus": 129965.0,
+      "experience_bonus": 187149.6
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T15:48:16.292788",
+    "client": "nauman",
+    "project_name": "ai  automation",
+    "project_type": "automation",
+    "complexity": "high",
+    "features": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy",
+      "api_integration",
+      "seo",
+      "admin_panel"
+    ],
+    "estimated_price": 531675.0,
+    "recommended_price": 786879.0,
+    "ai_price": 479844.68,
+    "timeline_days": 29,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 111200.0,
+      "features_cost": 243250.0,
+      "complexity_bonus": 177225.0,
+      "experience_bonus": 255204.0
+    },
+    "features_selected": [
+      "payment",
+      "authentication",
+      "database",
+      "analytics",
+      "cloud_deploy",
+      "api_integration",
+      "seo",
+      "admin_panel"
+    ]
+  },
+  {
+    "timestamp": "2026-04-13T16:33:38.105224",
+    "client": "",
+    "project_name": "",
+    "project_type": "ecommerce",
+    "complexity": "high",
+    "features": [
+      "payment",
+      "admin_panel",
+      "seo",
+      "authentication",
+      "database",
+      "api_integration"
+    ],
+    "estimated_price": 458700.0,
+    "recommended_price": 733920.0,
+    "ai_price": 492110.04,
+    "timeline_days": 26,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 125100.0,
+      "features_cost": 180700.0,
+      "complexity_bonus": 152900.0,
+      "experience_bonus": 275220.0
+    },
+    "features_selected": [
+      "payment",
+      "admin_panel",
+      "seo",
+      "authentication",
+      "database",
+      "api_integration"
+    ]
+  }
+]
