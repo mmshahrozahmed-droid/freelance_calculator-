@@ -524,5 +524,83 @@
     "features_selected": [
       "authentication"
     ]
+  },
+  {
+    "timestamp": "2026-04-14T19:06:18.095432",
+    "client": "",
+    "project_name": "",
+    "project_type": "website",
+    "complexity": "medium",
+    "features": [],
+    "estimated_price": 360.0,
+    "recommended_price": 417.6,
+    "ai_price": 712.51,
+    "timeline_days": 9,
+    "currency": "USD",
+    "breakdown": {
+      "base_price": 300.0,
+      "features_cost": 0.0,
+      "complexity_bonus": 60.0,
+      "experience_bonus": 57.6
+    },
+    "features_selected": []
+  },
+  {
+    "timestamp": "2026-04-15T13:00:29.212489",
+    "client": "",
+    "project_name": "",
+    "project_type": "mobile_app",
+    "complexity": "high",
+    "features": [
+      "admin_panel",
+      "api_integration",
+      "authentication"
+    ],
+    "estimated_price": 1425.0,
+    "recommended_price": 1767.0,
+    "ai_price": 1501.92,
+    "timeline_days": 21,
+    "currency": "USD",
+    "breakdown": {
+      "base_price": 600.0,
+      "features_cost": 350.0,
+      "complexity_bonus": 475.0,
+      "experience_bonus": 342.0
+    },
+    "features_selected": [
+      "admin_panel",
+      "api_integration",
+      "authentication"
+    ]
+  },
+  {
+    "timestamp": "2026-04-15T13:16:55.536804",
+    "client": "sibt e hassan",
+    "project_name": "automatic water dispanser",
+    "project_type": "ai",
+    "complexity": "medium",
+    "features": [
+      "admin_panel",
+      "api_integration",
+      "authentication",
+      "payment"
+    ],
+    "estimated_price": 323592.0,
+    "recommended_price": 401254.08,
+    "ai_price": 289764.96,
+    "timeline_days": 18,
+    "currency": "PKR",
+    "breakdown": {
+      "base_price": 139000.0,
+      "features_cost": 130660.0,
+      "complexity_bonus": 53932.0,
+      "experience_bonus": 77662.08
+    },
+    "features_selected": [
+      "admin_panel",
+      "api_integration",
+      "authentication",
+      "payment"
+    ]
   }
 ]
